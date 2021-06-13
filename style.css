@@ -1,0 +1,110 @@
+
+
+
+#StartGame 
+{
+    width: 280px;
+    height: 100px;
+    align-self: center;
+    margin-left: 1090px;
+    margin-top: 308px;
+    position: absolute;
+    
+    font-family: 'Audiowide', cursive;
+    font-size: 30px;
+}
+.timer
+{
+    border: 2px black solid;
+    position: absolute;
+    
+    font-size: 30px;
+    margin-left: 640px;
+    margin-top: 200px;
+    width: 100px;
+    position: absolute;
+    border: black 5px solid;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.Settings
+{
+    border-top: 2px solid black;
+    padding-top: 10px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+
+}
+
+.STContainer
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 590px;
+    font-family: 'Audiowide', cursive;
+}
+
+.moves
+{
+    
+    font-size: 30px;
+    margin-left: 500px;
+    margin-top: 200px;
+    width: 100px;
+    position: absolute;
+    border: black 5px solid;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.SolnGrid
+{
+    display: grid;
+    grid-template-columns: repeat(3, 70px);
+    grid-template-rows: repeat(3, 70px);
+    margin-left: 140px; 
+    margin-right: 1080px;
+    margin-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 90px;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+    position: absolute;
+}
+.stile
+{
+    border: 5px solid black ;
+    align-content: center;
+}
+
+.gtile
+{
+    border: 1px solid black;
+    align-content: center;
+    cursor: pointer;
+}
+
+
+.GameGrid
+{
+    display: grid;
+    grid-template-columns: repeat(5, 70px);
+    grid-template-rows: repeat(5, 70px);
+    align-content: center;
+    margin-left: 155px;
+    margin-right: 478px;
+    margin-top: 320px;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+    position: absolute;
+}
